@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossSuite">
+  <test thread-count="5" name="Chrome_CrossTest">
+   <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes>
+      <class name="Test_testngDemo.Testt_crossbr"/>
+      <class name="Test_testngDemo.Test_crosss"/>
+    </classes>
+  </test> <!-- CrossTest -->
+
+  <test thread-count="5" name="Edge_CrossTest">
+   <parameter name="BrowserName" value="Edge"></parameter>
+    <classes>
+      <class name="Test_testngDemo.Testt_crossbr"/>
+   
+    </classes>
+  </test> <!-- CrossTest -->
+
+  <test thread-count="5" name="Firefox_CrossTest">
+   <parameter name="BrowserName" value="Firefox"></parameter>
+    <classes>
+      <class name="Test_testngDemo.Testt_crossbr"/>
+      
+    </classes>
+  </test> <!-- CrossTest -->
+</suite> <!-- CrossSuite -->

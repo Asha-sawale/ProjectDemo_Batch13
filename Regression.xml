@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <groups>
+  <run>
+  <include name="Regression"></include>
+  </run>
+  </groups>
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="Test_testngDemo.Testt5"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+</suite> <!-- RegressionSuite -->
